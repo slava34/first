@@ -1,0 +1,42 @@
+body {
+    font-family: 'Anton', sans-serif;
+}
+.nav {
+    background-color: #023370;
+    height: 70px;
+    margin: -8px;
+
+    display: flex;
+    justify-content: space-between;
+
+
+}
+.burder{
+    height: 40px;
+    width: 40px;
+}
+.logotip{
+    height: 59px;
+    width: 239px;
+}
+.material-icons.md-light { color: rgba(255, 255, 255, 1); }
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.razmer{
+    width: 72px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.razmer:hover{
+    background-color: #bb8d54;
+}
