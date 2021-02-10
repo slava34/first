@@ -1,5 +1,5 @@
 body {
-    font-family: 'Anton', sans-serif;
+    /*font-family: 'Anton', sans-serif;*/
 }
 .nav {
     background-color: #023370;
@@ -9,27 +9,35 @@ body {
     display: flex;
     justify-content: space-between;
 
-
 }
+
 .burder{
     height: 40px;
     width: 40px;
 }
+
 .logotip{
     height: 59px;
     width: 239px;
 }
-.material-icons.md-light { color: rgba(255, 255, 255, 1); }
+
+.material-icons.md-light {
+    color: rgba(255, 255, 255, 1);
+    padding: 10px;
+}
+
 .logo{
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
 .nav2{
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
 .razmer{
     width: 72px;
     height: 70px;
@@ -37,6 +45,88 @@ body {
     align-items: center;
     justify-content: center;
 }
+
 .razmer:hover{
     background-color: #bb8d54;
+}
+
+.foto{
+    height: 100px;
+    width: 75px;
+    border-radius: 10%;
+}
+
+.kontent{
+    background-color: #37383a;
+    /*height: 1039px;*/
+    width: 240px;
+    margin: -8px;
+    margin-top: 8px;
+
+
+}
+
+.done{
+    display: flex;
+    align-items: center;
+    color: white;
+
+}
+
+.left:hover,.done:hover{
+    background-color: #023370;
+}
+
+.right{
+    /*display: flex;*/
+    /*flex-direction: column;*/
+    /*margin: -16px 0px;*/
+}
+
+.profil{
+    display: flex;
+    color: white;
+    border-bottom: white 1px solid;
+    height: 141px;
+}
+
+.osnova{
+    display: flex;
+    align-items: center;
+    color: white;
+    padding:10px 10px 0px;
+}
+
+.vse{
+    display: flex;
+    flex-direction: row;
+}
+
+.news{
+    margin: 8px;
+    margin-bottom: -8px;
+    background-color: #f8f9fa;
+    margin-right: -8px;
+    width: calc(100vw - 210px);
+    padding: 10px;
+
+}
+
+.vesti1{
+    width: 25vw;
+
+}
+
+.karta1 {
+    width: 25vw;
+    padding: 10px;
+    background-color: white;
+    margin-right: 6vw;
+    margin-top: 3vw;
+}
+
+.razpredelenie{
+    display: flex;
+    align-content: flex-start;
+    flex-flow: row wrap;
 }
